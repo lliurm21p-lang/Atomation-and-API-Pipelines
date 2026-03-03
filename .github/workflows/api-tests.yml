@@ -24,4 +24,4 @@ jobs:
 
       - name: Ejecutar la coleccion de Postman
         # IMPORTANTE: Verifica que los nombres de los .json coincidan exactamente con los tuyos
-        run: newman run postman/HotelBookings.postman_collection.json -e postman/TestEnvironment.postman_environment.json
+        run: run: newman run postman/HotelBookings.postman_collection.json -e postman/TestEnvironment.postman_environment.json
